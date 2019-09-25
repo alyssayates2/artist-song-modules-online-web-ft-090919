@@ -20,6 +20,10 @@ class Artist
     @@artists.detect{|a| a.name == name}
   end
 
+  def initialize(name)
+    @name = name 
+  end 
+
   def self.all
     @@artists
   end
