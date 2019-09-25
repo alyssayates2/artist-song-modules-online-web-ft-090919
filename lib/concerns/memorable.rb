@@ -1,6 +1,6 @@
 module Memorable
-include Song 
-include Artist  
+include Song
+include Artist
 
   def self.reset_all
     self.all.clear
@@ -9,5 +9,5 @@ include Artist
   def self.count
     self.all.count
   end
-  
+
 end
