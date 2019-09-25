@@ -1,5 +1,5 @@
 module Memorable
-include Song, Artist 
+
 
   def self.reset_all
     self.all.clear
