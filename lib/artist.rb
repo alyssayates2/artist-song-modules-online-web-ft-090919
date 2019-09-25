@@ -1,10 +1,10 @@
 require_relative '../lib/concerns/memorable'
-# require_relative '../lib/concerns/paramable'
+require_relative '../lib/concerns/paramable'
 
 class Artist
 
   extend Memorable
-  # extend Paramble
+  extend Paramble
 
   attr_reader :songs
 
