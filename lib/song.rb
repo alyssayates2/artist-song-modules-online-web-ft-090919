@@ -12,7 +12,7 @@ class Song
 
   def initialize
     @@songs << self
-    @name = name 
+    @name = name
   end
 
   def self.find_by_name(name)
