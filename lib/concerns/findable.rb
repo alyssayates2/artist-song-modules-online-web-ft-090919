@@ -1,2 +1,4 @@
 module Findable
-end 
+
+  attr_accessor :name 
+end
