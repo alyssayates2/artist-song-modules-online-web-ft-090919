@@ -1,11 +1,11 @@
 module Findable
 
-  attr_accessor :name 
+  attr_accessor :name
 
   def initialize(name)
     @name = name
   end
- 
+
   def self.all
     @@artists
   end
