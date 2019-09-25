@@ -7,7 +7,7 @@ class Artist
 
   extend Memorable
   include Paramable
-  extend Findable 
+  extend Findable
 
   attr_accessor :name
 
