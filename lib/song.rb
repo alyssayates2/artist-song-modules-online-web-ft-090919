@@ -3,12 +3,13 @@ require_relative '../lib/concerns/memorable'
 class Song
 
   extend Memorable
-  
+
   attr_reader :artist
 
   @@songs = []
 
   def initialize
+    @name = name 
     @@songs << self
   end
 
