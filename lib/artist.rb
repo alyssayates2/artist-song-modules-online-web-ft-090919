@@ -1,10 +1,10 @@
 require_relative '../lib/concerns/memorable'
-require_relative '../lib/concerns/paramable'
+# require_relative '../lib/concerns/paramable'
 
 class Artist
 
   extend Memorable
-  extend Paramble
+  # extend Paramble
 
   attr_reader :songs
 
@@ -16,9 +16,9 @@ class Artist
     @songs = []
   end
 
-  # def self.find_by_name(name)
-  #   @@artists.detect{|a| a.name == name}
-  # end
+  def self.find_by_name(name)
+    @@artists.detect{|a| a.name == name}
+  end
 
   def self.all
     @@artists
